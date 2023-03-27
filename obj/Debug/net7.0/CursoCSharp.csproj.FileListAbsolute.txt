@@ -1,0 +1,15 @@
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\CursoCSharp.exe
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\CursoCSharp.deps.json
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\CursoCSharp.runtimeconfig.json
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\CursoCSharp.dll
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\CursoCSharp.pdb
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.AssemblyInfoInputs.cache
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.AssemblyInfo.cs
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.dll
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\refint\CursoCSharp.dll
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.pdb
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\ref\CursoCSharp.dll
