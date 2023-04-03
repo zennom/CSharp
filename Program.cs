@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -15,7 +16,10 @@ namespace CursoCSharp {
                 {"Operadores Aritméticos - Exercícios ",OperadoresAritmeticos.Executar},
                 {"Exercícios Operadores",ExerciciosOperadores.Executar},
                 {"Operadores Lógicos e Relacionais",OperadoresLogicosERelacionais.Executar},
-                {"Operadores de Atribuição",OperadoresAtribuicao.Executar}
+                {"Operadores de Atribuição",OperadoresAtribuicao.Executar},
+
+                //Esruturas de Controle
+                {"Estrutura If - Esruturas de Controle",EstruturaIf.Executar }
             });
 
             central.SelecionarEExecutar();
