@@ -19,8 +19,10 @@ namespace CursoCSharp {
                 {"Operadores de Atribuição",OperadoresAtribuicao.Executar},
 
                 //Esruturas de Controle
-                {"Estrutura If - Esruturas de Controle",EstruturaIf.Executar },
-                {"Exercícios If Else",ExerciciosIfElse.Executar }
+                {"Estrutura If - Estruturas de Controle",EstruturaIf.Executar },
+                {"Estrutura If Else -Estruturas de Controle",EstruturaIfElse.Executar },
+                {"Exercícios If Else -Estruturas de Controle",ExerciciosIfElse.Executar }
+
             });
 
             central.SelecionarEExecutar();
