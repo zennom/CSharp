@@ -8,7 +8,21 @@ namespace CursoCSharp.Fundamentos {
     internal class ExerciciosOperadores {
         public static void Executar() {
 
-            Console.Write("Digite o seu número de funcionário:");
+            Console.WriteLine("Digite a distância  percorrida em KM:");
+            int distancia = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o totla de combustível gasto: ");
+            double combustivel = double.Parse(Console.ReadLine());
+
+            double resultado = distancia / combustivel;
+
+
+            Console.WriteLine(resultado.ToString("##.###"), "km/l");
+
+
+            /*
+             * 
+             *  Console.Write("Digite o seu número de funcionário:");
             var numFunc = int.Parse(Console.ReadLine());
 
             Console.Write("Digite o número de horas trabalhadas:");
@@ -21,8 +35,6 @@ namespace CursoCSharp.Fundamentos {
             double salario = horasTrab * valorHora;
 
             Console.WriteLine($"Número de funcionário {numFunc} Salário: R$ {salario.ToString("#,###")}");
-
-            /*
             
             Console.Write("Digite a primeira nota:");
             double nota1 = double.Parse(Console.ReadLine());
