@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos {
     internal class Pessoa {
 
-        /*estamos colocando o tipo "public"
-        porque quero que esse atributo fique visível
-        para a minha classe , imagine que na vida real
-        temos alguns atributos que precisam ser publicos 
-        e outros que precisamos esconder das outras pessoas */
-
         public string Nome;
         public int Idade;
 
-        /*não colocamos nenhum valor padrão porém, 
-        string tem valor padrão null e int
-        tem valor padrão zero */
+        public string Apresentar() {
+
+            return string.Format($"Olá! me chamo ${Nome} e tenho ${Idade}");
+        }
+
+        public void ApresentarNoConsole() {
+            // Aqui estou chamando no console o método que criei
+            // que é o Apresentar()
+            Console.WriteLine(Apresentar());
+        }
+
     }
 }
