@@ -17,15 +17,8 @@ namespace CursoCSharp.ClassesEMetodos {
     }
     internal class GetSet {
         public static void Executar() {
-            //vamos instanciar um objeto da classe Cliente
             Cliente cliente1 = new Cliente();
-
-            //aqui é um exemplo de GET = cliente1.Nome
-
-            //aqui estou usando o SET para enviar uma informação
             cliente1.Nome = "Naruto";
-
-            //exibindo no console
             Console.WriteLine(cliente1.Nome);
 
         }

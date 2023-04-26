@@ -17,21 +17,19 @@ namespace CursoCSharp.ClassesEMetodos {
                     nome = value;
                 }
             }
-            //criando uma propriedade autoimplementada
             public double Preco { get; set; }
-
-            /*a partir da propriedade acima posso
-            criar uma propriedade também para leitura */
             public double PrecoComDesconto {
-
                 get { return Preco - (desconto * Preco);}
-
             }
-            
+
+            public CarroOpcional(string nome,double preco) {
+                Nome = nome;
+                Preco = preco;
+            }
          }
         public static void Executar() {
-
-
+            var op1 = new CarroOpcional("Ar Condicionado",3499.9);
+            Console.WriteLine(op1.PrecoComDesconto);
         }
     }
 }

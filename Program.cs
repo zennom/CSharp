@@ -36,7 +36,8 @@ namespace CursoCSharp {
                 {"Métodos Estáticos - Classes e Métodos",MetodosEstaticos.Executar },
                 {"Params - Classes e Métodos",Params.Executar },
                 {"Get e Set - Classes e Métodos",GetSet.Executar},
-                {"Get e Set  Segundo Exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar}
+                {"Get e Set  Segundo Exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar},
+                {"Exercícios - Classes e Métodos",ExerciciosGetESet.Executar}
 
             });
 
