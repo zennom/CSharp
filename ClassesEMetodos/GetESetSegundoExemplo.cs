@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos {
     internal class GetESetSegundoExemplo {
+
+        /*
         public class CarroOpcional{
             double desconto = 0.1;
             string nome;
@@ -27,9 +29,14 @@ namespace CursoCSharp.ClassesEMetodos {
                 Preco = preco;
             }
          }
+        */
         public static void Executar() {
+
+
+            /*
             var op1 = new CarroOpcional("Ar Condicionado",3499.9);
             Console.WriteLine(op1.PrecoComDesconto);
+            */
         }
     }
 }
