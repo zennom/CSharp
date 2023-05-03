@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos {
     internal class ExerciciosGetESet {
         public class Animal {
-
             private string nome;
             private string tipo;
-
             public string Nome {
                 get { return nome; }
                 set { nome = value; }
             }
-
             public string Tipo {
                 //valores definidos pelo desenvolvedor (cachorro,gato,peixe)
                 get { return tipo; }
@@ -24,7 +21,6 @@ namespace CursoCSharp.ClassesEMetodos {
                     } else {
                         tipo = "Ave";
                     }
-
                 }
             }
         }
