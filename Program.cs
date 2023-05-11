@@ -5,11 +5,12 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
-
+using CursoCSharp.OO;
 
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
+
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Variáveis e Constantes - Fundamentos",VariaveisEConstantes.Executar},
@@ -41,10 +42,13 @@ namespace CursoCSharp {
                 {"Get e Set  Segundo Exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar},
                 {"Exercícios - Classes e Métodos",ExerciciosGetESet.Executar},
 
-
                 //Coleções
                 {"Array - Coleções",Arrays.Executar},
-                {"Queue - Coleções",ColecoesQueue.Executar}
+                {"Queue - Coleções",ColecoesQueue.Executar},
+                {"Stack - Coleções",ColecoesStack.Executar},
+
+                //Orientação a Objetos
+                {"Herança - OO",Heranca.Executar}
 
             });
 

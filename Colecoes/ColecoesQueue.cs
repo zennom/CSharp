@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Colecoes {
+
     internal class ColecoesQueue {
 
         public static void Executar() {
