@@ -43,6 +43,12 @@ namespace CursoCSharp.OO {
         }
     }
 
+    public class Ferrari: Carro {
+        public Ferrari() : base(500) {
+
+        }
+    }
+
     internal class Heranca {
         public static void Executar() {
             Console.WriteLine("Uno...");
@@ -50,6 +56,10 @@ namespace CursoCSharp.OO {
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Frear());
+
+            Console.WriteLine("Ferrari..");
+            Ferrari carro2 = new Ferrari();
+            Console.WriteLine(carro2.Acelerar());
 
         }
 

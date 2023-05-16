@@ -47,7 +47,8 @@ namespace CursoCSharp {
                 {"Stack - Coleções",ColecoesStack.Executar},
 
                 //Orientação a Objetos
-                {"Herança - OO",Heranca.Executar}
+                {"Herança - OO",Heranca.Executar},
+                {"Construtor This - OO ",ConstrutorThis.Executar}
 
 
             });
