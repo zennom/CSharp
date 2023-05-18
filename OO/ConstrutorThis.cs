@@ -23,7 +23,7 @@ namespace CursoCSharp.OO {
             }
 
             public override string ToString() {
-                return $"{Nome} tem {Altura}cm de altura";
+                return $"{Nome} tem {Altura} cm de altura";
             } 
         }
         public static void Executar() {
