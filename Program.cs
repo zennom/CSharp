@@ -39,6 +39,7 @@ namespace CursoCSharp {
                 {"Params - Classes e Métodos",Params.Executar },
                 {"Get e Set - Classes e Métodos",GetSet.Executar},
                 {"Get e Set  Segundo Exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar},
+                {"Exercícios - Entregar",ExercicioEntregar.Executar},
                 {"Exercícios - Classes e Métodos",ExerciciosGetESet.Executar},
 
                 //Coleções
@@ -50,6 +51,7 @@ namespace CursoCSharp {
                 {"Herança - OO",Heranca.Executar},
                 {"Construtor This - OO ",ConstrutorThis.Executar},
                 {"Encapsulamento - OO",OO.Encapsulamento.Executar},
+                {"Polimorfismo - OO",Polimorfismo.Executar},
 
 
             });

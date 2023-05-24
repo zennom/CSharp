@@ -13,3 +13,6 @@ C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\refint\CursoCSharp.dl
 C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.pdb
 C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.genruntimeconfig.cache
 C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\ref\CursoCSharp.dll
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\Encapsulamento.dll
+C:\Users\Viviane\source\repos\CursoCSharp\bin\Debug\net7.0\Encapsulamento.pdb
+C:\Users\Viviane\source\repos\CursoCSharp\obj\Debug\net7.0\CursoCSharp.csproj.CopyComplete
