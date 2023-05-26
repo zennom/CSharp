@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos {
     internal class ExercicioEntregar {
-
         class Pessoa {
             private string nome;
             private DateTime dataNascimento;
@@ -48,7 +47,6 @@ namespace CursoCSharp.ClassesEMetodos {
             public int CalcularIdade() {
                 return DateTime.Today.Year - dataNascimento.Year;
             }
-
         }
 
         public static void Executar() {

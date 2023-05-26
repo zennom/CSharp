@@ -13,18 +13,22 @@ namespace CursoCSharp.OO {
         }
         public Comida() {}
     }
-    public class Feijao {
-        public double Peso;
+    public class Feijao : Comida {
+       
     }
-    public class Arroz {
-        public double Peso;
+    public class Arroz : Comida {
+        
     }
-    public class Carne {
-        public double Peso;
+   public class Carne : Comida {
+        
     }
     public class Pessoa {
         public double Peso;
-        public void Comer(Feijao feijao) { 
+        /* agora aqui ao invés de termos 3 métodos
+         * um pra cada tipo de comida, a gente cria
+         * apenas um em que vai ter as informações das
+         * 3 comidas
+         public void Comer(Feijao feijao) { 
             Peso += feijao.Peso;
         }
         public void Comer(Arroz arroz) {
@@ -32,6 +36,10 @@ namespace CursoCSharp.OO {
         }
         public void Comer(Carne carne) {
             Peso += carne.Peso;
+        } */
+
+        public void Comer (Comida comida) {
+            Peso += comida.Peso;
         }
     }
     internal class Polimorfismo {
@@ -43,7 +51,7 @@ namespace CursoCSharp.OO {
             ingrediente2.Peso = 0.25;
 
             Carne ingrediente3 = new Carne();
-            ingrediente3.Peso = 0.3;
+            ingrediente3.Peso = 0.30;
 
             Pessoa cliente = new Pessoa();
             cliente.Peso = 80.2;
