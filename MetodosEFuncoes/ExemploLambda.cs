@@ -29,6 +29,14 @@ namespace CursoCSharp.MetodosEFuncoes {
 
             //chamando a função
             Console.WriteLine(formatarData(02, 06, 1995));
+
+
+            Func<int, bool> numeroPar = i => {
+                return (i % 2) == 0;
+            };
+
+            Console.WriteLine(numeroPar(2));
         }
+
     }
 }

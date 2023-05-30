@@ -8,7 +8,7 @@ namespace CursoCSharp.ClassesEMetodos {
     internal class ExercicioEntregar {
         class Pessoa {
             private string nome;
-            private DateTime dataNascimento;
+            private int anoNascimento;
             private double altura;
 
             public string Nome {
@@ -20,12 +20,12 @@ namespace CursoCSharp.ClassesEMetodos {
                 }
             }
 
-            public DateTime DataNascimento {
+            public int AnoNascimento {
                 get {
-                    return dataNascimento;
+                    return anoNascimento;
                 }
                 set {
-                    dataNascimento = value;
+                    anoNascimento = value;
                 }
             }
 
@@ -40,28 +40,21 @@ namespace CursoCSharp.ClassesEMetodos {
 
             public void ImprimirDados() {
                 Console.WriteLine("Nome: " + nome);
-                Console.WriteLine("Data de Nascimento: " + dataNascimento);
+                Console.WriteLine("Ano de Nascimento: " + anoNascimento);
                 Console.WriteLine("Altura: " + altura);
             }
-
             public int CalcularIdade() {
-                return DateTime.Today.Year - dataNascimento.Year;
+                return  2023 - anoNascimento;
             }
         }
-
         public static void Executar() {
-
             Pessoa p = new Pessoa();
             p.Nome = "Joel";
-            p.DataNascimento = new DateTime(1993, 6, 28);
-            p.Altura = 1.76f;
-
+            p.AnoNascimento = 1995;
+            p.Altura = 1.76;
             p.ImprimirDados();
-
             int idade = p.CalcularIdade();
-
             Console.WriteLine("Idade: " + idade);
-
         }
     }
 }
