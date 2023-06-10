@@ -60,6 +60,7 @@ namespace CursoCSharp {
                 //Métodos e Funções
                 {"Exemplo Lambda - Métodos e Funções",ExemploLambda.Executar},
                 {"Lambda Delegate - Métodos e Funções",LambdasDelegate.Executar},
+                {"Polimorfismo - Exercício Polimorfismo",ExercicioPolimorfismo.Executar}
 
 
             });
